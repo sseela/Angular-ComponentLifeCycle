@@ -11,7 +11,7 @@ export class ChildComponent implements OnInit, OnChanges, DoCheck, OnDestroy, Af
   constructor(){
     console.log("child constructor");
   }
-
+ 
   ngOnChanges(changes: SimpleChanges){
     console.log(changes);
     for(let propertyName in changes){

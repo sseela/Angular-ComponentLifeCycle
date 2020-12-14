@@ -12,7 +12,7 @@ export class ParentComponent implements OnInit, OnChanges, DoCheck, OnDestroy, A
   constructor(private ss: SharedServiceService){
     console.log("parent constructor");
   }
-
+ 
   ngOnChanges(){
     console.log("parent ngOnChanges");
   }

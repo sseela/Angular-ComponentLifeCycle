@@ -5,7 +5,7 @@ import { ChildComponent } from './child.component';
 describe('ChildComponent', () => {
   let component: ChildComponent;
   let fixture: ComponentFixture<ChildComponent>;
-
+ 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ ChildComponent ]

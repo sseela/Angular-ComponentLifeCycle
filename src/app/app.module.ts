@@ -14,7 +14,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ChildComponent,
+    ChildComponent, 
     OtherComponent,
     ParentComponent
   ],
